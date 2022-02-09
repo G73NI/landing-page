@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,800;1,300&display=swap');
+
+*,
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+A {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Header */
+
+.header-section { 
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    width: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-container .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.nav A {
+    color: #f9faf8;
+}
+
+.nav A:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Hero */
+
+.hero-section { 
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 100vh;
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.hero-left,
+.hero-right {
+    flex: 1;
+}
+
+.hero-right {
+    background: url(./pexels-yelena-odintsova-10262654.jpg);
+    height: 300px;
+}
+.hero-left h1 {
+    color: #faf9f8;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+.hero-left p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 20px 20px 20px 0px;
+}
+
+.hero-left button {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    background-color: #3882f6;
+}
+
+.hero-left button:hover {
+    border: 1px solid #3882f6;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero-left A {
+    color: #e5e7eb;
+}
+
+/* Info */
+
+.info-section { 
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    width: 100vh;
+    display: flex;
+    gap: 50px;
+    margin: 100px 0px 100px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-up h1 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.info-down {
+    display: flex;
+    gap: 20px;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-item div {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.info-item p {
+    margin-top: 10px;
+    width: 199px;
+    text-align: center;
+}
+
+/* Quote Section */
+
+.quote-section { 
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 100vh;
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-container p {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-container h1 {
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+/* CTA section */
+
+.cta-section { 
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0px 100px 0px;
+    align-items: center;
+    background-color: #3882f6;
+    color: #fff;
+    padding: 50px 100px 50px 100px;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.cta-left h1 {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.cta-right A {
+    color: #fff;
+}
+
+.cta-right A:hover {
+    color: #3882f6;
+}
+.cta-right button {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    background-color: transparent;
+}
+
+.cta-right button:hover {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+/* Footer Section */
+
+.footer-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container h1 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    padding: 20px 0px 20px 0px;
+}
